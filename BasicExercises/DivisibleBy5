@@ -1,0 +1,16 @@
+# 1. Ask user to provide the number
+# 2. Print the number, provided by user
+# 3. Check if number is divisible by 5
+# 4. Print YES OR NO for divisible by 5.
+p = input ("write a number")
+try:
+    j=int(p)
+except ValueError :
+    print("it is not a number")
+    exit()
+
+print("The number which you entered is " ,j)
+if j%5==0:
+    print(j , "is divisible by 5")
+else:
+    print(j , "is not divisible by 5 ")
