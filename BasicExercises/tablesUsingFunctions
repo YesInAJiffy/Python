@@ -1,0 +1,17 @@
+# do tables one to twenty, be smart 😎.
+
+
+def table(tableOF, tableTill):
+    print(f"Below is the table of {tableOF}")
+    for i in range (1,tableTill + 1):
+        multiple = tableOF*i
+        print (f"{tableOF} X {i} = {multiple} ")
+    print(f"table ended for {tableOF}")
+
+table(17, 10)  
+table(7,10)     
+
+# Write a function which takes two parameters 1) Start 2) End
+# The function should print the numbers from Start to End.
+
+
