@@ -3,6 +3,13 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import numpy as np
 
+# SAMPLE DATA BELOW
+# https://www.howstat.com/Cricket/Statistics/Grounds/GroundList.asp?Scope=T
+# https://andresberejnoi.com/blog/bar-chart-race-with-manim/
+# https://www.youtube.com/watch?v=5faHSJKlS_g
+# https://www.howstat.com/Cricket/Statistics/Matches/MatchListCountry.asp?A=IND&B=XXX&C=XXX
+
+
 # Read the CSV data from a file
 df = pd.read_csv('/Users/yes.in.a.jiffy/Downloads/Wins.csv')
 
